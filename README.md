@@ -10,10 +10,6 @@ If you have encountered the problem of testing the layout for Retina screens (Ma
 
 | Device Name  |  width (viewport) | height (viewport)  | DPR (JS) - CSS Pixel Ratio  |
 |---|---|---|---|
-Apple MacBook 12-inch | 2304 | 1310 | 2 |
-Apple MacBook Pro 13-inch | 2560 | 1470 | 2 |
-Apple MacBook Pro 15-inch | 2880 | 1670 | 2 |
-iMac 24 - 2021 | 2048 | 1152 | 2 |
 MacBook Pro 16 - 2021 | 1728 | 1117 | 2 |
 MacBook Pro 14 - 2021 | 1352 | 780 | 2 |
 MacBook Air 13 - 2020 | 1280 | 800 | 2 |
