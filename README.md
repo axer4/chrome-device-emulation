@@ -2,6 +2,20 @@
 
 If you have encountered the problem of testing the layout for Retina screens (MacBook devices), tablets and phones - this documentation will help you.
 
+## Good practices for breakpoints
+
+We recommend using the breakpoints from the [Bootstrap documentation](https://getbootstrap.com/docs/5.0/layout/breakpoints/#available-breakpoints). It is clear that designers will not adapt to all breakpoints, but it is important to have at least the following:
+
+- 375px — for phones (to 575px)
+- 768px — for tablets (to 991px)
+- 1200px – for laptops 13-14 inches
+- 1400px – for laptops 15-16 inches
+
+> [!IMPORTANT]  
+> **For designer**: Avoid 100% width layouts. Make a layout in a container, the indents for which will increase with the increase of screen.
+>
+> **For developer**: It's still important to test the layout on ≥576px and ≥992px breakpoints, even when there is no adaptation from the designer
+
 ## Devices
 
 ### Desktop
